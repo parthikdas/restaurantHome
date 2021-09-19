@@ -1,0 +1,53 @@
+.navBar {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 4rem;
+    border-top: .1rem solid var(--orange);
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.Name {
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 20%;
+    color: #eee;
+}
+.link-contain{
+    width: 60%;
+}
+.links {
+    margin: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    color : var(--white);
+}
+.links:hover, .links:focus {
+    color: var(--orange);
+    transition: .3s;
+}
+.book-button {
+    width: 20%;
+}
+.book {
+    border-radius: 1.5rem;
+    background: transparent;
+    border: .15rem solid var(--orange);
+    padding: 1rem 2rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color : var(--white);
+    letter-spacing: .05rem;
+}
+.book:hover {
+    background-color: var(--orange);
+    transition: .5s;
+}

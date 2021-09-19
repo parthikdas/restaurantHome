@@ -1,0 +1,13 @@
+:root {
+    --orange : #f34f1d;
+    --white : #eee;
+    --back : rgb(0, 0, 0, .85);
+}
+.App {
+    height: 100vh;
+    width: 100vw;
+    color: var(--white);
+    position: relative;
+    background-color: var(--back);
+    overflow-x: hidden;
+}

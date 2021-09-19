@@ -1,0 +1,63 @@
+.chef-box{
+    height: 100vh;
+    width: 100vw;
+}
+.nothing {
+    height: 10%;
+    width: 100%;
+}
+.container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head {
+    font-size: 3rem;
+}
+.quote {
+    color: var(--orange);
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.main {
+    margin-top: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.chef-card{
+    height: 30rem;
+    width: 18rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chef-card img {
+    height: 85%;
+    width: 100%;
+}
+.name {
+    font-size: 1rem;
+    margin-top: .8rem;
+}
+.postion {
+    font-size: .8rem;
+    margin-top: .8rem;
+}
+.button {
+    border-radius: 10rem;
+    background-color: var(--orange);
+    text-transform: uppercase;
+    padding: .5rem 1.1rem;
+    margin-top: 1.7rem;
+}
+.button:hover {
+    background-color: #eee;
+    color: var(--orange);
+    transition: .5s;
+}

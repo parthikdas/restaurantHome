@@ -1,0 +1,58 @@
+.about-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.first{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about{
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+.foody{
+    color: var(--orange);
+    font-size: 3rem;
+    position: relative;
+}
+.a, .b{
+    height: .2rem;
+    width: 5rem;
+    background-color: rgb(216, 214, 214);
+}
+.b{
+    margin-top: .3rem;
+}
+.second{
+    height: 100vh;
+    width: 50vw;
+}
+.second img{
+    height: inherit;
+    width: inherit;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+.about-button {
+    margin-top: 2rem;
+    border: .1rem solid rgb(216, 214, 214);
+    padding: .7rem 1.7rem;
+    border-radius: 1rem;
+}
+.about-button:hover {
+    background-color: rgb(216, 214, 214);
+    color: var(--back);
+    transition: .3s;
+}
